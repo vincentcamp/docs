@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ProseMirror Styles */
+.ProseMirror {
+  position: relative;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  white-space: break-spaces;
+  -webkit-font-variant-ligatures: none;
+  font-variant-ligatures: none;
+  padding: 1rem;
+  min-height: 100%;
+  outline: none;
+}
+
+.ProseMirror title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  display: block;
+}
+
+.ProseMirror subtitle {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  display: block;
+}
+
+.ProseMirror heading1 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 1em 0;
+  display: block;
+}
+
+.ProseMirror heading2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0.8em 0;
+  display: block;
+}
+
+.ProseMirror heading3 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0.6em 0;
+  display: block;
+}
